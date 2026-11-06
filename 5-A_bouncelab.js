@@ -67,7 +67,7 @@ function draw() {
   ctx.fill();
 
   // 壁に当たった回数を表示
-  ctx.fillStyle = "#ff58a3";
+  ctx.fillStyle = "#ff62a9";
   ctx.font = "16px sans-serif";
   ctx.fillText("壁に当たった回数: " + hitCount,)
 }
