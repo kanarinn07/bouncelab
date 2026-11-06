@@ -67,9 +67,9 @@ function draw() {
   ctx.fill();
 
   // 壁に当たった回数を表示
-  ctx.fillStyle = "#000000";
+  ctx.fillStyle = "#ff58a3";
   ctx.font = "16px sans-serif";
-  ctx.fillText("壁に当たった回数: " + hitCount, 10, 20);
+  ctx.fillText("壁に当たった回数: " + hitCount,)
 }
 
 // now：今回呼ばれた時刻（ミリ秒）。requestAnimationFrame が引数で渡してくれる
